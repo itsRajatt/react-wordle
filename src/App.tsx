@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect, useRef, FormEvent, KeyboardEvent } from "react";
+import { useState, useEffect, useRef, FormEvent, KeyboardEvent } from "react";
 
 const App = () => {
   const [inputs, setInputs] = useState(["", "", "", "", ""]);
