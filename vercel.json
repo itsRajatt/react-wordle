@@ -15,12 +15,6 @@
         "source": "/api/dictionary/:path*",
         "destination": "https://api.dictionaryapi.dev/api/v2/entries/en/:path*"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
     ]
   }
   
